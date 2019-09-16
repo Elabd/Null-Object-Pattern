@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GameConsole
 {
@@ -12,7 +8,7 @@ namespace GameConsole
         {
             PlayerCharacter sarah = new PlayerCharacter(new DiamondSkinDefence())
             {
-                Name = "Sarah"            
+                Name = "Sarah"
             };
 
             PlayerCharacter amrit = new PlayerCharacter(new IronBonesDefence())
@@ -20,7 +16,7 @@ namespace GameConsole
                 Name = "Amrit"
             };
 
-            PlayerCharacter gentry = new PlayerCharacter(new NullDefence())
+            PlayerCharacter gentry = new PlayerCharacter(SpecialDefence.Null)
             {
                 Name = "Gentry"
             };
